@@ -3,7 +3,7 @@ const popup = document.querySelector('.popup-window')
 const getFacts = document.querySelector('.facts-button')
 
 
-setInterval(() => {
+setTimeout(() => {
     popup.classList.add('is--visible')
     bodyBlackout.classList.add('is-blacked-out')
 
